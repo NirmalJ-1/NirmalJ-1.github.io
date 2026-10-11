@@ -334,6 +334,7 @@
     background: linear-gradient(180deg, var(--cyan), var(--purple));
     border-radius: 16px 0 0 16px;
   }
+  .exp-card + .exp-card { margin-top: 20px; }
   .exp-card:hover { border-color: rgba(34,211,238,.15); box-shadow: 0 12px 40px rgba(0,0,0,.2); }
 
   .exp-header {
@@ -462,7 +463,7 @@
   <div class="hero-left">
     <div class="hero-eyebrow">
       <div class="live-dot"></div>
-      Open to Internships
+      Open to Internships &amp; New Grad Roles
     </div>
     <h1 class="hero-name">
       Computer<br>
@@ -471,7 +472,7 @@
     <p class="hero-desc">
       Hi, I'm <strong>Nirmal Jasti</strong> — a CS Engineering student at
       <strong>UC Santa Cruz</strong> specializing in Systems Programming.
-      I build things close to the metal: embedded systems, networked apps, and everything in between.
+      I build software across the stack: data tools and web components, networked apps, and embedded systems.
     </p>
     <div class="hero-actions">
       <a href="#projects" class="btn-cta">See My Work ↓</a>
@@ -502,7 +503,7 @@
           <div class="pd-row">
             <span class="pd-icon">⚙️</span>
             <span class="pd-label">Focus</span>
-            <span class="pd-val">Embedded Systems &amp; Networking</span>
+            <span class="pd-val">Software, Networking &amp; Embedded</span>
           </div>
         </div>
 
@@ -541,7 +542,7 @@
       <div class="sk-icon ski-c">⚡</div>
       <div class="sk-name">Programming Languages</div>
       <div class="sk-tags">
-        <span class="stag">C</span><span class="stag">C++</span><span class="stag">Python</span>
+        <span class="stag">C</span><span class="stag">C++</span><span class="stag">Python</span><span class="stag">SQL</span>
       </div>
     </div>
     <div class="skill-card sk-p reveal rd1">
@@ -552,6 +553,8 @@
         <span class="stag">Client-Server Arch.</span>
         <span class="stag">Embedded Systems</span>
         <span class="stag">Debugging</span>
+        <span class="stag">Full-Stack Tools</span>
+        <span class="stag">Git &amp; Code Review</span>
       </div>
     </div>
     <div class="skill-card sk-o reveal rd2">
@@ -560,6 +563,7 @@
       <div class="sk-tags">
         <span class="stag">STM32Cube</span><span class="stag">Vivado</span>
         <span class="stag">TCP Sockets</span><span class="stag">POX SDN</span>
+        <span class="stag">Snowflake</span><span class="stag">Streamlit</span><span class="stag">Gemini API</span>
       </div>
     </div>
     <div class="skill-card sk-g reveal rd3">
@@ -633,6 +637,35 @@
   <div class="exp-card reveal">
     <div class="exp-header">
       <div>
+        <div class="exp-role">Front-End Developer, Components Team</div>
+        <div class="exp-org">Tech4Good — UC Santa Cruz</div>
+      </div>
+      <div class="exp-period">Sep '26 – Present</div>
+    </div>
+    <div class="exp-bullets">
+      <div class="exp-bullet"><div class="bullet-dot"></div><span>Developing reusable front-end components in Angular and TypeScript for <strong>Compass</strong>, a web app that helps users set goals and tasks and align them with long-term objectives through guided reflection.</span></div>
+      <div class="exp-bullet"><div class="bullet-dot"></div><span>Submit changes via Git pull requests and iterate on code review feedback in a 4-person team.</span></div>
+    </div>
+  </div>
+  <div class="exp-card reveal">
+    <div class="exp-header">
+      <div>
+        <div class="exp-role">Technical Intern I</div>
+        <div class="exp-org">Cisco — San Jose, CA</div>
+      </div>
+      <div class="exp-period">Jun '26 – Sep '26</div>
+    </div>
+    <div class="exp-bullets">
+      <div class="exp-bullet"><div class="bullet-dot"></div><span>Built <strong>Cobalt</strong>, a Streamlit + Snowflake dashboard for the Mt. Fuji project team to analyze manufacturing yield across product IDs and date ranges on datasets of up to 10,000 records.</span></div>
+      <div class="exp-bullet"><div class="bullet-dot"></div><span>Replaced a manual Excel-based serial-number lookup with an interactive search that returns results in seconds.</span></div>
+      <div class="exp-bullet"><div class="bullet-dot"></div><span>Enhanced a Gemini API chatbot to provide detailed information on manufacturing test areas and surface related failure data for troubleshooting.</span></div>
+      <div class="exp-bullet"><div class="bullet-dot"></div><span>Implemented editable failure logs with edit-history tracking, preserving data traceability when records are updated.</span></div>
+      <div class="exp-bullet"><div class="bullet-dot"></div><span>Co-developed a Cost of Poor Quality (COPQ) tool estimating financial losses from skipped RMA test steps; recognized by judges at Cisco's Intern Innovation Challenge.</span></div>
+    </div>
+  </div>
+  <div class="exp-card reveal">
+    <div class="exp-header">
+      <div>
         <div class="exp-role">Math Tutor</div>
         <div class="exp-org">Baskin Engineering — UC Santa Cruz</div>
       </div>
@@ -689,11 +722,11 @@
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
     <div class="contact-row">
-      <a href="https://linkedin.com/in/nirmaljasti" class="clink clink-li" target="_blank">
+      <a href="https://www.linkedin.com/in/nirmal-jasti/" class="clink clink-li" target="_blank">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
         LinkedIn
       </a>
-      <a href="https://github.com/nirmalgithub" class="clink clink-gh" target="_blank">
+      <a href="https://github.com/NirmalJ-1" class="clink clink-gh" target="_blank">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
         GitHub
       </a>
@@ -711,4 +744,10 @@
 </footer>
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-  const obs = ne
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
